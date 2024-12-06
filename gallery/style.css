@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.body__header{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.header__btn{   
+    width: 200px;
+    border: none;
+    background-color: #C70039 ;
+    color: #fff;
+    padding: 1rem 2rem;
+    transition: all .3s ease;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.header__btn:hover{
+    background-color: #fff;
+    color: #C70039;
+}
+.main__items{
+    padding: 2rem 2rem;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 3fr);
+    justify-items: center;
+    gap: 2rem;
+}
+  
+.post > img {
+    border: 2px solid #C70039;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-family: ‘Arial Narrow’, sans-serif;
+    font-weight: 100;
+    font-size: 1.1em;
+    color: #C70039;
+  }
+  
+  span {
+    position: relative;
+    top: 0.63em;  
+    display: inline-block;
+    text-transform: uppercase;  
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  
+  .let1 {
+    animation: drop 1.2s ease-in-out infinite;
+    animation-delay: 1.2s;
+  }
+  
+  .let2 {
+    animation: drop 1.2s ease-in-out infinite;
+    animation-delay: 1.3s;
+  }
+  
+  .let3 {
+    animation: drop 1.2s ease-in-out infinite;
+    animation-delay: 1.4s;
+  }
+  
+  .let4 {
+    animation: drop 1.2s ease-in-out infinite;
+    animation-delay: 1.5s;
+  
+  }
+  
+  .let5 {
+    animation: drop 1.2s ease-in-out infinite;
+    animation-delay: 1.6s;
+  }
+  
+  .let6 {
+    animation: drop 1.2s ease-in-out infinite;
+    animation-delay: 1.7s;
+  }
+  
+  .let7 {
+    animation: drop 1.2s ease-in-out infinite;
+    animation-delay: 1.8s;
+  }
+  .loader-remove{
+    display: none;
+  }
+  @keyframes drop {
+      10% {
+          opacity: 0.5;
+      }
+      20% {
+          opacity: 1;
+          top: 3.78em;
+          transform: rotateX(-360deg);
+      }
+      80% {
+          opacity: 1;
+          top: 3.78em;
+          transform: rotateX(-360deg);
+      }
+      90% {
+          opacity: 0.5;
+      }
+      100% {
+          opacity: 0;
+          top: 6.94em
+      }
+  }
+
+
+
